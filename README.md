@@ -23,7 +23,8 @@ import os
 os.chdir('/home/myuser/directory')
 import script
 ```
-assuming the program named script.py are located in the /home/myuser/directory directory
+assuming the program named script.py is located in the /home/myuser/directory directory
+
 For re-loading the script (e.g. after modifying the Python program):
 ```python
 import importlib
