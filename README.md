@@ -8,6 +8,8 @@ how" at [https://www.youtube.com/watch?v=BHbnOlBvpLI] (accessed Dec. 2019)
 
 <img src="simulation.png" width="300">
 
+This was tested with FreeCAD 0.18 (released 2019/10/22)
+
 # Running the simulation
 
 When using a ready made FreeCAD mode:
