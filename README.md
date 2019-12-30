@@ -31,10 +31,12 @@ import importlib
 importlib.reload(script)
 ```
 
-For the example creating the model in addition to running the simulation: Create an empty FreeCAD project, and
+For the example creating the model in addition to running the simulation: create an empty FreeCAD project, and
 ```python
 import os
 os.chdir('/home/myuser/directory')
 import create
 ```
 to run the create.py script. This script uses the nbharmonics (default value=20) to define how many harmonics are created.
+
+When running this script, a file named "res" will be created in the current directory, whose last column can be displayed (e.g. with gnuplot) for showing the motion of the pen.
