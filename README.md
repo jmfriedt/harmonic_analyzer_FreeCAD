@@ -6,7 +6,11 @@ how" at [https://www.youtube.com/watch?v=BHbnOlBvpLI] (accessed Dec. 2019)
 
 <img src="20.png" width="300">
 
+Model created by create.py with 20 harmnics (i.e. 20 wheel pairs)
+
 <img src="simulation.png" width="300">
+
+Pen motion when considering 3, 4 or 20 harmonics, and when forgetting an intermediate wheel making the even wheel rotate in the opposite direction than the odd wheels (incorrect sum of harmonics).
 
 This was tested with FreeCAD 0.18 (released 2019/10/22)
 
