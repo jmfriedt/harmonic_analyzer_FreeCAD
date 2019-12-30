@@ -14,6 +14,10 @@ Pen motion when considering 3, 4 or 20 harmonics, and when forgetting (-3) an in
 
 This was tested with FreeCAD 0.18 (released 2019/10/22)
 
+# Videos of the running simulations
+
+I've captured videos of the simulations running: they are located in the video subdirectory, but seem to have to be downloaded and cannot be played from github raw display.
+
 # Running the simulation
 
 When using a ready made FreeCAD model:
