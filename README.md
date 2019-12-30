@@ -12,9 +12,12 @@ This was tested with FreeCAD 0.18 (released 2019/10/22)
 
 # Running the simulation
 
-When using a ready made FreeCAD mode:
+When using a ready made FreeCAD model:
+
 1/ load the .FCStd model
+
 2/ open the Python console (View → Panels → Python console menu) and type
+
 ```python
 import os
 os.chdir('/home/myuser/directory')
