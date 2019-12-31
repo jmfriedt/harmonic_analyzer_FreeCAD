@@ -20,6 +20,8 @@ I've captured videos of the simulations running: they are located in the video s
 
 # Running the simulation
 
+## Basic model
+
 When using a ready made FreeCAD model:
 
 1/ load the .FCStd model
@@ -48,3 +50,11 @@ import create
 to run the create.py script. This script uses the nbharmonics (default value=20) to define how many harmonics are created.
 
 When running this script, a file named "res" will be created in the current directory, whose last column can be displayed (e.g. with gnuplot) for showing the motion of the pen.
+
+## Model with gears
+
+If the FCGear workbench has been installed, a model that could be build replacing flat cylinders with gears
+can be created with
+```python
+import create_gears_holes
+```
