@@ -62,3 +62,5 @@ can be created with
 ```python
 import create_gears_holes
 ```
+
+<img src="video/FreeCAD2019-12-31_gears.gif" width="300">
