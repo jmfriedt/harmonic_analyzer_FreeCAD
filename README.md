@@ -8,6 +8,10 @@ how" at [https://www.youtube.com/watch?v=BHbnOlBvpLI] (accessed Dec. 2019)
 
 Model created by create.py with 20 harmonics (i.e. 20 wheel pairs)
 
+<img src="video/FreeCAD2019-12-25_4harmonics.gif" width="300">
+
+Animated motion with 4 gears (=harmonics, manual drawing)
+
 <img src="simulation.png" width="300">
 
 Pen motion when considering 3, 4 or 20 harmonics, and when forgetting (-3) an intermediate wheel making the even wheel rotate in the opposite direction than the odd wheels (incorrect sum of harmonics).
