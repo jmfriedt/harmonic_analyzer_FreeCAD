@@ -51,7 +51,7 @@ import os
 os.chdir('/home/myuser/directory')
 import create
 ```
-to run the create.py script. This script uses the nbharmonics (default value=20) to define how many harmonics are created.
+to run the create.py script. This script uses the nbharmonics (default value=20) constant to define how many harmonics are created.
 
 When running this script, a file named "res" will be created in the current directory, whose last column can be displayed (e.g. with gnuplot) for showing the motion of the pen.
 
@@ -64,3 +64,8 @@ import create_gears_holes
 ```
 
 <img src="video/FreeCAD2019-12-31_gears.gif" width="300">
+
+## Triangle generation
+
+The script create_triangle.py, run from an empty sheet, will create the gear sequence needed to generate a triangular motion of the pen as -1^[(n-1)/2]/n^2 for odd n harmonics. The -1^(n-1)/2
+demonstrates the use of adjacent counter-rotating gears, while the 1/n^2 weight is achieved by moving the inversed-T shaped piece driving position at 1/n of the radius which is itself 1/n of the initial gear radius (hence the 1/n^2 weight).
